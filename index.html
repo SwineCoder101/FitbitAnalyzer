@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>Fitness Anyliser</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="heading">
+        <h1 class="message" id="msg">My FitBit Analyzer</h1>
+      </section>
+      <section class="authorize">
+        <form>
+          <button class="btn btn--copy">Copy URL</button>
+          <input type="text" id="url" name="url" />
+          <p class="copy--status" id="copyStatus">..</p>
+        </form>
+      </section>
+      <section class="token">
+        <form>
+          <label for="accessCode">Access Code:</label>
+          <input type="text" id="accessCode" name="accessCode" /><br /><br />
+          <button class="btn btn--authorize">Authorize</button>
+        </form>
+        <button class="btn btn--refresh">🔄 Refresh</button>
+      </section>
+    </main>
+  </body>
+</html>
